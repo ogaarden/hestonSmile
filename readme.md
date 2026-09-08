@@ -15,6 +15,12 @@ A great thing about the Heston SDE is that it has a semi closed solution, i.e. w
 https://www.sciencedirect.com/science/article/pii/S0096300322000212
 
 
+
+## Issues with the program
+
+The heston model does catch a volatility smile, however its not aggresive enough. I think letting the params file have a higher volatility is worth looking into, or reducing the rho value. Otherwise I think the best case is to use machine learning on each stock, and get params from ML. But as I said I have not done it.
+
+
 ## How to run!
 
 First in "download_data.py", write the tickers you want to analyze in the tickers list, then run the program.

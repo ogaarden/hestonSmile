@@ -1,0 +1,10 @@
+/strikes
+/prices
+
+*.exe
+*.csv
+
+.vscode/
+.idea/
+build/
+bin/

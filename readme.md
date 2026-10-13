@@ -33,4 +33,3 @@ This program asks you to write a ticker, this has to be a ticker that you just d
 
 Finally, you can run "plot_smile.py", and check wether the project was an absolute fail or decent enough! In the left plot it compares IV of the heston, to market, to historical vol. On the right side it compares what the option price would be using these volatilities into its respective formulas. 
 
-NO AI IS USED IN THIS README 
